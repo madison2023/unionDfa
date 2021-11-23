@@ -36,5 +36,5 @@ dfa_union = {
 }
 
 with open('dfa_union.json', 'w') as f:
-    json.dump(dfa_union, f) #output union DFA as JSON object
+    json.dump(dfa_union, f, indent=4) #output union DFA as JSON object
 
