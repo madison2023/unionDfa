@@ -1,0 +1,60 @@
+{
+    "Q": [
+        "Q_Reject",
+        "Q0R0",
+        "Q0R1",
+        "Q0R2",
+        "Q1R0",
+        "Q1R1",
+        "Q1R2"
+    ],
+    "sigma": [
+        "B",
+        "A",
+        "C"
+    ],
+    "delta": {
+        "Q_Reject": {
+            "B": "Q_Reject",
+            "A": "Q_Reject",
+            "C": "Q_Reject"
+        },
+        "Q0R0": {
+            "B": "Q1R0",
+            "A": "Q1R1",
+            "C": "Q_Reject"
+        },
+        "Q0R1": {
+            "B": "Q1R1",
+            "A": "Q1R2",
+            "C": "Q_Reject"
+        },
+        "Q0R2": {
+            "B": "Q1R2",
+            "A": "Q1R2",
+            "C": "Q_Reject"
+        },
+        "Q1R0": {
+            "B": "Q1R0",
+            "A": "Q1R1",
+            "C": "Q_Reject"
+        },
+        "Q1R1": {
+            "B": "Q1R1",
+            "A": "Q1R2",
+            "C": "Q_Reject"
+        },
+        "Q1R2": {
+            "B": "Q1R2",
+            "A": "Q1R2",
+            "C": "Q_Reject"
+        }
+    },
+    "initialState": "Q0R0",
+    "F": [
+        "Q0R2",
+        "Q1R0",
+        "Q1R1",
+        "Q1R2"
+    ]
+}
